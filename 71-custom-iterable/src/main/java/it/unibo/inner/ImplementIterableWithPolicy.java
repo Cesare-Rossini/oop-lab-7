@@ -15,8 +15,12 @@ public class ImplementIterableWithPolicy<T> implements IterableWithPolicy<T> {
     }
 
     public ImplementIterableWithPolicy(T[] array) {
-        this.array = array;
-        this.policy = null;
+        this(array, new it.unibo.inner.api.Predicate<T> () {
+            public boolean test(T elem) {
+                return true;
+            } 
+        }
+        );
     }
 
 
