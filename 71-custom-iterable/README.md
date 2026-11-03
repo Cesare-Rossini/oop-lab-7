@@ -1,7 +1,7 @@
 # INSTRUCTIONS
 
 **Ensure that all parts of the exercise are correct, not just the end of them.**
-
+    
 ## Part 1: iterable without policy
 
 1. Implement the `IterableWithPolicy<T>` interface via a generic class with a constructor that takes an array of `T` elements.

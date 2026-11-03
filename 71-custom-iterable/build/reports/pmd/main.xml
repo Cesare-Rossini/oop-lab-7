@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.26.0" timestamp="2026-11-03T15:11:12.543">
+<file name="C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\src\main\java\it\unibo\inner\TestIterablePlain.java">
+<violation beginline="9" endline="9" begincolumn="14" endcolumn="31" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="it.unibo.inner" class="TestIterablePlain" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+This class has only private constructors and may be final
+</violation>
+<violation beginline="13" endline="13" begincolumn="72" endcolumn="80" rule="UnusedFormalParameter" ruleset="Best Practices" package="it.unibo.inner" class="TestIterablePlain" method="getIterableWithPolicy" variable="elements" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'elements'.
+</violation>
+<violation beginline="24" endline="24" begincolumn="18" endcolumn="23" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.inner" class="TestIterablePlain" method="main" variable="test3" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'test3' could be declared final
+</violation>
+</file>
+<file name="C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\src\main\java\it\unibo\inner\TestIterableWithPolicy.java">
+<violation beginline="13" endline="13" begincolumn="14" endcolumn="36" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="it.unibo.inner" class="TestIterableWithPolicy" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+This class has only private constructors and may be final
+</violation>
+<violation beginline="17" endline="17" begincolumn="79" endcolumn="87" rule="UnusedFormalParameter" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="makeIterableWithPolicy" variable="elements" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'elements'.
+</violation>
+<violation beginline="17" endline="17" begincolumn="108" endcolumn="114" rule="UnusedFormalParameter" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="makeIterableWithPolicy" variable="filter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'filter'.
+</violation>
+<violation beginline="21" endline="21" begincolumn="79" endcolumn="87" rule="UnusedFormalParameter" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="makeIterableWithPolicy" variable="elements" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'elements'.
+</violation>
+<violation beginline="26" endline="26" begincolumn="34" endcolumn="41" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="it.unibo.inner" class="TestIterableWithPolicy" method="main" variable="test1" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "pippo" appears 5 times in this file; the first occurrence is on line 26
+</violation>
+<violation beginline="26" endline="26" begincolumn="43" endcolumn="50" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="it.unibo.inner" class="TestIterableWithPolicy" method="main" variable="test1" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "pluto" appears 5 times in this file; the first occurrence is on line 26
+</violation>
+<violation beginline="26" endline="26" begincolumn="52" endcolumn="57" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="it.unibo.inner" class="TestIterableWithPolicy" method="main" variable="test1" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "foo" appears 5 times in this file; the first occurrence is on line 26
+</violation>
+<violation beginline="26" endline="26" begincolumn="59" endcolumn="64" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="it.unibo.inner" class="TestIterableWithPolicy" method="main" variable="test1" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "bar" appears 5 times in this file; the first occurrence is on line 26
+</violation>
+<violation beginline="29" endline="29" begincolumn="28" endcolumn="32" rule="PublicMemberInNonPublicType" ruleset="Design" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_design.html#publicmemberinnonpublictype" priority="3">
+Public member 'test' declared in a non-public type
+</violation>
+<violation beginline="30" endline="30" begincolumn="24" endcolumn="44" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="30" endline="30" begincolumn="48" endcolumn="68" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="34" endline="34" begincolumn="28" endcolumn="32" rule="PublicMemberInNonPublicType" ruleset="Design" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_design.html#publicmemberinnonpublictype" priority="3">
+Public member 'test' declared in a non-public type
+</violation>
+<violation beginline="35" endline="35" begincolumn="24" endcolumn="42" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="35" endline="35" begincolumn="46" endcolumn="64" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="45" endline="45" begincolumn="27" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.inner" class="TestIterableWithPolicy" method="main" variable="filterOutAll" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'filterOutAll' could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="28" endcolumn="32" rule="PublicMemberInNonPublicType" ruleset="Design" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_design.html#publicmemberinnonpublictype" priority="3">
+Public member 'test' declared in a non-public type
+</violation>
+<violation beginline="50" endline="50" begincolumn="27" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.inner" class="TestIterableWithPolicy" method="main" variable="takeAll" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'takeAll' could be declared final
+</violation>
+<violation beginline="51" endline="51" begincolumn="28" endcolumn="32" rule="PublicMemberInNonPublicType" ruleset="Design" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_design.html#publicmemberinnonpublictype" priority="3">
+Public member 'test' declared in a non-public type
+</violation>
+<violation beginline="74" endline="74" begincolumn="68" endcolumn="77" rule="UseDiamondOperator" ruleset="Code Style" package="it.unibo.inner" class="TestIterableWithPolicy" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by a diamond: `new Predicate&lt;&gt;()`
+</violation>
+<violation beginline="75" endline="75" begincolumn="28" endcolumn="32" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'test(Product)' is missing an @Override annotation.
+</violation>
+<violation beginline="79" endline="79" begincolumn="71" endcolumn="80" rule="UseDiamondOperator" ruleset="Code Style" package="it.unibo.inner" class="TestIterableWithPolicy" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by a diamond: `new Predicate&lt;&gt;()`
+</violation>
+<violation beginline="80" endline="80" begincolumn="28" endcolumn="32" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'test(Product)' is missing an @Override annotation.
+</violation>
+<violation beginline="84" endline="84" begincolumn="68" endcolumn="77" rule="UseDiamondOperator" ruleset="Code Style" package="it.unibo.inner" class="TestIterableWithPolicy" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_codestyle.html#usediamondoperator" priority="3">
+Explicit type arguments can be replaced by a diamond: `new Predicate&lt;&gt;()`
+</violation>
+<violation beginline="85" endline="85" begincolumn="28" endcolumn="32" rule="MissingOverride" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'test(Product)' is missing an @Override annotation.
+</violation>
+<violation beginline="86" endline="86" begincolumn="24" endcolumn="55" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="it.unibo.inner" class="TestIterableWithPolicy" method="test" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+</file>
+<file name="C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\src\main\java\it\unibo\inner\api\Predicate.java">
+<violation beginline="8" endline="8" begincolumn="18" endcolumn="27" rule="ImplicitFunctionalInterface" ruleset="Best Practices" package="it.unibo.inner.api" class="Predicate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#implicitfunctionalinterface" priority="2">
+Annotate this interface with @FunctionalInterface or with @SuppressWarnings("PMD.ImplicitFunctionalInterface") to clarify your intent.
+</violation>
+</file>
+<file name="C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\src\main\java\it\unibo\inner\test\Assertions.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="28" rule="UnnecessaryImport" ruleset="Code Style" package="it.unibo.inner.test" class="Assertions" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'java.util.ArrayList'
+</violation>
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="29" rule="UnnecessaryImport" ruleset="Code Style" package="it.unibo.inner.test" class="Assertions" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'java.util.Collection'
+</violation>
+<violation beginline="45" endline="45" begincolumn="50" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="it.unibo.inner.test" class="Assertions" method="iterableSize" variable="iter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'iter' is not assigned and could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="18" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="it.unibo.inner.test" class="Assertions" method="iterableSize" variable="elem" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'elem'.
+</violation>
+</file>
+</pmd>

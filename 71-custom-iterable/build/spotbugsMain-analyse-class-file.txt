@@ -1,0 +1,14 @@
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\api\IterableWithPolicy.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\api\Predicate.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\test\api\Product.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\test\Assertions.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\test\impl\ProductImpl.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\TestIterablePlain.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\TestIterableWithPolicy$1.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\TestIterableWithPolicy$2.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\TestIterableWithPolicy$3.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\TestIterableWithPolicy$4.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\TestIterableWithPolicy$5.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\TestIterableWithPolicy$6.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\TestIterableWithPolicy$7.class
+C:\Users\cesare.rossini\Downloads\lab07\lab07\71-custom-iterable\build\classes\java\main\it\unibo\inner\TestIterableWithPolicy.class

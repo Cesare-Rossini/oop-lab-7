@@ -11,7 +11,7 @@ public class TestIterablePlain {
     private TestIterablePlain() {}
 
     private static <T> IterableWithPolicy<T> getIterableWithPolicy(T[] elements) {
-        return null; // TODO: return the implementation of IterableWithPolicy
+        return new ImplementIterableWithPolicy<>(elements);
     }
 
     public static void main() {
